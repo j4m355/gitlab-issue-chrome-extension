@@ -1,0 +1,10 @@
+.page-header{
+	margin-top: 80px;
+}
+.column h3{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+}
+.column .table tbody td{
+	line-height: 34px;
+}

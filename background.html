@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+   	 <script type="text/javascript" src="background.js"></script>
+    <title>Chromgit Dashboard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/options.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/options.js"></script>
+</head>
+
+<body style="overflow: hidden;">
+	<div class="container">
+		<h3>Raise a New Issue</h3>
+	<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Title</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Summarise Issue">
+  </div>
+  
+    
+
+    <div class="btn-group">
+      <label for="assignto">Assign To</label>
+      <button id="assignto" class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+    Please Select <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Johnny</a></li>
+      <li><a href="#">Dug</a></li>
+      <li><a href="#">Ned</a></li>
+      <li><a href="#">Jed</a></li>
+    </ul>
+
+</div>
+ <p class="help-block">Select the appropriate developer.</p>
+
+ <div class="btn-group">
+      <label for="assignto">Project</label>
+      <button id="assignto" class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+    Please Select <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">A</a></li>
+      <li><a href="#">B</a></li>
+      <li><a href="#">C</a></li>
+      <li><a href="#">X</a></li>
+    </ul>
+
+</div>
+ <p class="help-block">Select the appropriate project.</p>
+
+
+<label for="assignto">Tags</label>
+  <div class="btn-group">   
+    <span class="label label-success">Egg</span>
+    <span class="label label-success">Chip</span>
+    <span class="label label-success">Dean</span>
+</div>
+
+
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Description</label>
+    <textarea type="password" class="form-control" id="exampleInputPassword1" placeholder="Description and steps"></textarea>
+    <p class="help-block">A quick summary of the issue and concise steps to recreate.</p>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Attach screen shot?
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary pull-right">Add</button>
+</form>
+	</div>
+
+	</body>
+</html>
